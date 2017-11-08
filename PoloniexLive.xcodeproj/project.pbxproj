@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F46C5BCD1FB34B1D00868B82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C5BCC1FB34B1D00868B82 /* AppDelegate.swift */; };
+		F46C5BCF1FB34B1D00868B82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C5BCE1FB34B1D00868B82 /* ViewController.swift */; };
+		F46C5BD11FB34B1D00868B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46C5BD01FB34B1D00868B82 /* Assets.xcassets */; };
+		F46C5BD41FB34B1D00868B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46C5BD21FB34B1D00868B82 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F46C5BC91FB34B1D00868B82 /* PoloniexLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoloniexLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F46C5BCC1FB34B1D00868B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F46C5BCE1FB34B1D00868B82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F46C5BD01FB34B1D00868B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F46C5BD31FB34B1D00868B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F46C5BD51FB34B1D00868B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F46C5BC61FB34B1D00868B82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F46C5BC01FB34B1D00868B82 = {
+			isa = PBXGroup;
+			children = (
+				F46C5BCB1FB34B1D00868B82 /* PoloniexLive */,
+				F46C5BCA1FB34B1D00868B82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F46C5BCA1FB34B1D00868B82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F46C5BC91FB34B1D00868B82 /* PoloniexLive.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F46C5BCB1FB34B1D00868B82 /* PoloniexLive */ = {
+			isa = PBXGroup;
+			children = (
+				F46C5BCC1FB34B1D00868B82 /* AppDelegate.swift */,
+				F46C5BCE1FB34B1D00868B82 /* ViewController.swift */,
+				F46C5BD01FB34B1D00868B82 /* Assets.xcassets */,
+				F46C5BD21FB34B1D00868B82 /* Main.storyboard */,
+				F46C5BD51FB34B1D00868B82 /* Info.plist */,
+			);
+			path = PoloniexLive;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F46C5BC81FB34B1D00868B82 /* PoloniexLive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F46C5BD81FB34B1D00868B82 /* Build configuration list for PBXNativeTarget "PoloniexLive" */;
+			buildPhases = (
+				F46C5BC51FB34B1D00868B82 /* Sources */,
+				F46C5BC61FB34B1D00868B82 /* Frameworks */,
+				F46C5BC71FB34B1D00868B82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PoloniexLive;
+			productName = PoloniexLive;
+			productReference = F46C5BC91FB34B1D00868B82 /* PoloniexLive.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F46C5BC11FB34B1D00868B82 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Armonia;
+				TargetAttributes = {
+					F46C5BC81FB34B1D00868B82 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = W7PMV9XFGM;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F46C5BC41FB34B1D00868B82 /* Build configuration list for PBXProject "PoloniexLive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F46C5BC01FB34B1D00868B82;
+			productRefGroup = F46C5BCA1FB34B1D00868B82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F46C5BC81FB34B1D00868B82 /* PoloniexLive */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F46C5BC71FB34B1D00868B82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46C5BD11FB34B1D00868B82 /* Assets.xcassets in Resources */,
+				F46C5BD41FB34B1D00868B82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F46C5BC51FB34B1D00868B82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F46C5BCF1FB34B1D00868B82 /* ViewController.swift in Sources */,
+				F46C5BCD1FB34B1D00868B82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F46C5BD21FB34B1D00868B82 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F46C5BD31FB34B1D00868B82 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F46C5BD61FB34B1D00868B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F46C5BD71FB34B1D00868B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		F46C5BD91FB34B1D00868B82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W7PMV9XFGM;
+				INFOPLIST_FILE = PoloniexLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Armonia.PoloniexLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F46C5BDA1FB34B1D00868B82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = W7PMV9XFGM;
+				INFOPLIST_FILE = PoloniexLive/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Armonia.PoloniexLive;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F46C5BC41FB34B1D00868B82 /* Build configuration list for PBXProject "PoloniexLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46C5BD61FB34B1D00868B82 /* Debug */,
+				F46C5BD71FB34B1D00868B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F46C5BD81FB34B1D00868B82 /* Build configuration list for PBXNativeTarget "PoloniexLive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F46C5BD91FB34B1D00868B82 /* Debug */,
+				F46C5BDA1FB34B1D00868B82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F46C5BC11FB34B1D00868B82 /* Project object */;
+}
