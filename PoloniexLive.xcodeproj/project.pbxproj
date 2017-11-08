@@ -11,15 +11,22 @@
 		F46C5BCF1FB34B1D00868B82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C5BCE1FB34B1D00868B82 /* ViewController.swift */; };
 		F46C5BD11FB34B1D00868B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F46C5BD01FB34B1D00868B82 /* Assets.xcassets */; };
 		F46C5BD41FB34B1D00868B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F46C5BD21FB34B1D00868B82 /* Main.storyboard */; };
+		F46C5BDC1FB34C3100868B82 /* PoloniexPushAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C5BDB1FB34C3100868B82 /* PoloniexPushAPI.swift */; };
+		F46C5BDE1FB34C7300868B82 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46C5BDD1FB34C7300868B82 /* WebSocket.swift */; };
+		F46C5BE11FB3509F00868B82 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = F46C5BE01FB3509F00868B82 /* libz.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F420CC2C1FB3A858009DDE91 /* Readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
 		F46C5BC91FB34B1D00868B82 /* PoloniexLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PoloniexLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F46C5BCC1FB34B1D00868B82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F46C5BCE1FB34B1D00868B82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F46C5BD01FB34B1D00868B82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F46C5BD31FB34B1D00868B82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F46C5BD51FB34B1D00868B82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F46C5BDB1FB34C3100868B82 /* PoloniexPushAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PoloniexPushAPI.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		F46C5BDD1FB34C7300868B82 /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebSocket.swift; sourceTree = "<group>"; };
+		F46C5BE01FB3509F00868B82 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46C5BE11FB3509F00868B82 /* libz.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -36,8 +44,10 @@
 		F46C5BC01FB34B1D00868B82 = {
 			isa = PBXGroup;
 			children = (
+				F420CC2C1FB3A858009DDE91 /* Readme.md */,
 				F46C5BCB1FB34B1D00868B82 /* PoloniexLive */,
 				F46C5BCA1FB34B1D00868B82 /* Products */,
+				F46C5BDF1FB3509F00868B82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,13 +62,23 @@
 		F46C5BCB1FB34B1D00868B82 /* PoloniexLive */ = {
 			isa = PBXGroup;
 			children = (
+				F46C5BD51FB34B1D00868B82 /* Info.plist */,
 				F46C5BCC1FB34B1D00868B82 /* AppDelegate.swift */,
 				F46C5BCE1FB34B1D00868B82 /* ViewController.swift */,
-				F46C5BD01FB34B1D00868B82 /* Assets.xcassets */,
+				F46C5BDB1FB34C3100868B82 /* PoloniexPushAPI.swift */,
+				F46C5BDD1FB34C7300868B82 /* WebSocket.swift */,
 				F46C5BD21FB34B1D00868B82 /* Main.storyboard */,
-				F46C5BD51FB34B1D00868B82 /* Info.plist */,
+				F46C5BD01FB34B1D00868B82 /* Assets.xcassets */,
 			);
 			path = PoloniexLive;
+			sourceTree = "<group>";
+		};
+		F46C5BDF1FB3509F00868B82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F46C5BE01FB3509F00868B82 /* libz.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,6 +153,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F46C5BDC1FB34C3100868B82 /* PoloniexPushAPI.swift in Sources */,
+				F46C5BDE1FB34C7300868B82 /* WebSocket.swift in Sources */,
 				F46C5BCF1FB34B1D00868B82 /* ViewController.swift in Sources */,
 				F46C5BCD1FB34B1D00868B82 /* AppDelegate.swift in Sources */,
 			);
@@ -291,6 +313,7 @@
 				F46C5BDA1FB34B1D00868B82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
