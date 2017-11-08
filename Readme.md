@@ -8,7 +8,7 @@ Link to Poloniex API: [https://poloniex.com/support/api/](https://poloniex.com/s
 
 As simple as this:
 
-Poloniex.Live.subscribe(channel: .ticker, delegate: onTicker)
+    Poloniex.Live.subscribe(channel: .ticker, delegate: onTicker)
 
 Then parse the response as json and populate your controls with that info in real time (batteries not included).
 
